@@ -26,7 +26,6 @@ public class Main {
 
         while(playAgain) {
             int randomNum = rand.nextInt(100)+1;
-            //int attempt = 0;
             boolean found = false;
 
             while(attempt < maxAttempts && !found) {
